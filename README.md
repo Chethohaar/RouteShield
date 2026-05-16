@@ -3,15 +3,15 @@
 SECURE ROUTE OBFUSCATION SIMULATOR
 
 <p align="center">
-  <img src="Userview.png" width="500"/>
+  <img src="images/Userview.png" width="500"/>
 </p>
 
 <p align="center">
-  <img src="Algovisual.png" width="500"/>
+  <img src="images/Algovisual.png" width="500"/>
 </p>
 
 <p align="center">
-  <img src="Attackerview.png" width="500"/>
+  <img src="images/Attackerview.png" width="500"/>
 </p>
 
 ## Features Explained
@@ -19,13 +19,11 @@ SECURE ROUTE OBFUSCATION SIMULATOR
 1. **Dijkstra's Algorithm**: Finds the shortest path between two nodes in a weighted graph.
 
 2. **Step-by-Step Visualization**: Shows how the algorithm works:
-
    - Current node being processed
    - Updated distances to all nodes
    - Previous nodes in the shortest paths
 
 3. **Secure Routing**:
-
    - Generates dummy paths to obscure the actual path
    - Helps prevent traffic analysis attacks
    - Creates multiple believable alternative paths
@@ -63,20 +61,17 @@ This is a command-line interface (CLI) version of the Secure Route Obfuscation S
    ```
 
 2. Choose how to input your graph:
-
    - Option 1: Use the built-in example graph
    - Option 2: Input a custom graph manually
    - Option 3: Load a graph from a JSON file
    - Option 4: Exit the program
 
 3. If inputting a custom graph manually:
-
    - Enter edges in the format: `source target weight`
    - Example: `A B 4` creates an edge from node A to node B with weight 4
    - Type 'done' when finished
 
 4. If loading from a JSON file:
-
    - Use the format shown in `sample_graph.json`
    - The JSON file should contain an array of edges with source, target, and weight
 
